@@ -8,10 +8,7 @@
     <title>Document</title>
     <link type="text/css" href="https://www.glowscript.org/css/redmond/2.1/jquery-ui.custom.css" rel="stylesheet" />
     <link type="text/css" href="https://www.glowscript.org/css/ide.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://www.glowscript.org/lib/jquery/2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://www.glowscript.org/lib/jquery/2.1/jquery-ui.custom.min.js"></script>
-    <script type="text/javascript" src="https://www.glowscript.org/package/glow.3.2.min.js"></script>
-    <script type="text/javascript" src="https://www.glowscript.org/package/RSrun.3.2.min.js"></script>
+
 </head>
 <style>
     iframe {
@@ -22,10 +19,10 @@
 </style>
 
 <body>
-    <iframe src="test.html"></iframe>
+    <iframe id="frametest" src="test.html"></iframe>
 </body>
 <script>
-
+document.getElementById('frametest').focus();
 </script>
 
 </html>
